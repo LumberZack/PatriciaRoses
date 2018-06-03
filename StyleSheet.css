@@ -68,6 +68,13 @@ a:hover {
     padding: 3px;
 }
 
+.grid-container-d {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 5px;
+    grid-column-gap: 5px;
+}
+
 .price {
     text-align: right;
 }
@@ -96,8 +103,12 @@ a:hover {
     }
     
     .grid-container-b {
-    grid-template-columns: 1fr;
-}
+        grid-template-columns: 1fr;
+    }
+    
+    .grid-container-d {
+        grid-template-columns: 1fr;
+    }
     
     .show {
         display: none;
